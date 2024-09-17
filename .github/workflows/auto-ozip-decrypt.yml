@@ -12,7 +12,7 @@ on:
 #    - cron: 0 8 * * 5
   watch:
     types: [started]
-
+  workflow_dispatch:
 env:
   FIRMWARE_LINK: https://download.c.realme.com/osupdate/RMX1931_11_OTA_1340_all_2QCxQYdkxpql.ozip #edit link here...
   FIRMWARE_NAME: RMX1931_11_OTA_1340_all_2QCxQYdkxpql.ozip  #edit file name here, you can find the name of file from link itself...
